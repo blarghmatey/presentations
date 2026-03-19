@@ -1,0 +1,17 @@
+{
+  "name": "presentations",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export --format pdf",
+    "dev:agentic": "slidev agentic_engineering/slides.md --open",
+    "build:agentic": "slidev build agentic_engineering/slides.md",
+    "export:agentic": "slidev export agentic_engineering/slides.md --format pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.0.0",
+    "@slidev/theme-seriph": "latest"
+  }
+}
