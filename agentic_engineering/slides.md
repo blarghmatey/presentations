@@ -2047,3 +2047,34 @@ class: text-center
 </div>
 
 </v-click>
+
+---
+layout: center
+class: text-center
+---
+
+# Questions? Feedback?
+
+<div class="mt-6 text-lg text-gray-300">
+  What's working for you? What isn't? What did I get wrong?
+</div>
+
+<div class="mt-10 grid grid-cols-2 gap-6 text-sm max-w-2xl mx-auto">
+
+<div class="p-4 bg-gray-800 rounded border border-blue-600">
+  <div class="text-2xl mb-2">🤝</div>
+  <div class="font-semibold mb-1">Pairing Sessions</div>
+  <div class="text-gray-400">Happy to sit down and work through a real task together — sometimes the patterns click faster when applied to your own code.</div>
+</div>
+
+<div class="p-4 bg-gray-800 rounded border border-green-600">
+  <div class="text-2xl mb-2">🕐</div>
+  <div class="font-semibold mb-1">Office Hours</div>
+  <div class="text-gray-400">If there's enough interest, I'll set up a recurring slot — bring prompts, bring problems, bring skepticism.</div>
+</div>
+
+</div>
+
+<div class="mt-8 text-gray-500 text-sm">
+  Slides at <span class="text-blue-400">github.com/blarghmatey/presentations</span>
+</div>
