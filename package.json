@@ -8,10 +8,13 @@
     "export": "slidev export --format pdf",
     "dev:agentic": "slidev agentic_engineering/slides.md --open",
     "build:agentic": "slidev build agentic_engineering/slides.md",
-    "export:agentic": "slidev export agentic_engineering/slides.md --format pdf"
+    "export:agentic": "slidev export agentic_engineering/slides.md --format pdf --dark"
   },
   "dependencies": {
     "@slidev/cli": "^51.0.0",
     "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.58.2"
   }
 }
